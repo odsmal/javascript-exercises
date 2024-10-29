@@ -3,7 +3,7 @@ const repeatString = function (s, n) {
 
   let total = "";
   for (let repeats = 0; repeats < n; repeats++) {
-    total = total + s;
+    total += s;
   }
   return total;
 };
