@@ -15,9 +15,6 @@ const sumAll = function (x, y) {
   }
 
   for (let i = smallest; i <= largest; i++) {
-    console.log(i);
-    console.log(largest);
-
     sum += i;
   }
   return sum;
