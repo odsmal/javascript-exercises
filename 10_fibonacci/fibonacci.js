@@ -14,15 +14,5 @@ const fibonacci = function (n) {
   return result;
 };
 
-// const fibonacci = function (n, a = 0, b = 1, result = 0) {
-//   if (n === 0) return result;
-//   result = a + b;
-//   a = b;
-//   b = result;
-//   return result + fibonacci(n - 1, a, b, result);
-// };
-
-console.log(fibonacci(10));
-
 // Do not edit below this line
 module.exports = fibonacci;
